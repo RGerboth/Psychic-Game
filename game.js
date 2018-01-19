@@ -11,7 +11,7 @@ var wins = 0;
     console.log(guessesLeft);
 
     // Creates an array that lists out all of the options (Rock, Paper, or Scissors).
-    var alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "m", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+    var alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
     
     // randommly chooses a choice from the options array. This is the Computer's guess.
     var randomLetter = alphabet[Math.floor(Math.random() * alphabet.length)];
