@@ -1,0 +1,29 @@
+  /*<The Black Adder stylesheet>*/
+    body {
+          background: black;
+          font-family: Blackadder ITC;
+          font-size: 36px;
+          text-align: center;
+        }
+
+    h1   {
+          color: white;
+          font-size: 60px;
+        }
+
+    h2   {
+          color: white;
+          font-size: 24px;
+        }
+
+    p    {
+          color: white;
+    }
+
+    span {color: red;
+          font-size: 48px;
+        }
+
+    img {
+          width: 640px;
+    }
