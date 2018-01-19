@@ -44,6 +44,7 @@ var wins = 0;
             losses ++;
             guessesLeft = 9;
             guessesSoFar = [];
+            randomLetter = alphabet[Math.floor(Math.random() * alphabet.length)];
             // alert("Game Over, try again if you dare.");
             document.getElementById("message").innerHTML = "Game Over, try again if you dare.";
 
